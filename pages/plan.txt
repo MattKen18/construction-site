@@ -1,0 +1,8 @@
+Construction Website
+
+-pages
+--landing page
+--services page
+--About us page
+--Contact us page
+--why us
