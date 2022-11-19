@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <title>Cornerstone Construction</title>
+
+    <style>
+
+        div#site-wrapper {
+            background-color: var(--bg-color);
+
+        }
+
+        #about-clause {
+            width: 50%;
+        }
+
+        #about-clause h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        #about-clause p {
+            color: black;
+            text-align: center;
+            font-size: 1.25rem;
+            opacity: 0.7;
+        }
+
+        #site-body {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="site-wrapper">
+        <nav id="site-nav">
+            <a href="./index.html"><img id="site-logo" src="../static/images/logo.svg" /></a>
+            <div class="nav-section section__right">
+                <ul id="site-navigation">
+                    <li><a href="./index.html" class="site-navigation__link">Home</a></li>
+                    <li><a href="./services.html" class="site-navigation__link">Our Services</a></li>
+                    <li><a href="./whyus.html" class="site-navigation__link">Why Choose Us</a></li>
+                    <li><a href="./about.html" class="site-navigation__link">About</a></li>
+                    <li><a href="./contact.html" class="site-navigation__link">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="site-body">
+            <div id="about-clause">
+                <h1>Cornerstone Construction</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Consectetur purus ut faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Consectetur purus ut faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Consectetur purus ut faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Consectetur purus ut faucibus.
+                </p>
+            </div>
+        </div>
+        <footer id="site-footer">
+            <div class="footer-section footer-section-top">
+                <img id="site-logo-footer" src="../static/images/logo.svg" />
+            </div>
+            <div class="footer-section footer-section-bottom">
+                <div>
+                    <a href="./services.html"><h3>Explore Our Services</h3></a>
+                    <ul>
+                        <li><a href="">HVAC</a></li>
+                        <li><a href="">Decking</a></li>
+                        <li><a href="">Fencing</a></li>
+                        <li><a href="">Odd Jobs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="./whyus.html"><h3>Why Should You Choose Us?</h3></a>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div>
+                    <a href="./about.html"><h3>About</h3></a>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="misc">
+                    <h3>Misc</h3>
+                    <img src="../static/images/waving-hand.gif" alt="waving hand gif" />
+                    <p><a style="text-decoration: none; color: var(--secondary-color);" href="mailto:tempEmail.gmail.com">Say Hello!</a></p>
+                    <div class="dropdown" style="border-right: none; position: absolute; left: -70px; top: 0;">
+                        <button class="dropbtn">Quick Access</button>
+                        <div class="dropdown-content" style="height: auto; border-right: none; padding: 10px;">
+                          <a href="./services.html">Services</a>
+                          <a href="./whyus.html">Why Us?</a>
+                          <a href="./contact.html">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</body>
