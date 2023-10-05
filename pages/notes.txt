@@ -1,0 +1,20 @@
+Matthew Carby Notes Page
+
+Text in body with different fonts and formats on all pages
+Colored background and colored text on all pages
+Pictures/Images on index, and services pages
+Numbered list on why us page
+Bulleted list in footer
+Table on services page
+Text formatting on all pages
+Image links on index page
+Hyper link to target location within a document in footer
+Hyper link to email address in footer
+Hyper link to website onlnie in services page
+Dropdown in footer
+Sprites on services page
+CSS Font Properties in all css files
+CSS TextProperties in all css files
+CSS Color and Background Properties in all css files
+CSS Box properties in all css files
+Responsive button on services page
